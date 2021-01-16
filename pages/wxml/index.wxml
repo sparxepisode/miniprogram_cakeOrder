@@ -1,0 +1,17 @@
+<!--pages/wxml/index.wxml-->
+<view class="index">
+  <view class="swiper-body">
+    <swiper indicator-dots="{{indicatorDots}}"   
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this" wx:for-item="item">
+          <swiper-item>
+            <image class="swiper-item" src="../../image/{{item}}.png"> </image>
+          </swiper-item>
+          </block>
+    </swiper>
+
+    <button open-type='share' class="share" style="background-image:url(../../imgs/icon_2_forward@2x.png);" plain='true'></button>
+
+</view>
+
+</view>

@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/wxml/index",
+    "pages/wxml/menu/menu",
+    "pages/wxml/order/order",
+    "pages/wxml/self/self",
+    "pages/OrderNow/OrderNow"
+  ],
+  "window":{
+    "backgroundColor":"#F7F7F7",
+    "navigationBarBackgroundColor": "#F7F7F7",
+    "navigationBarTitleText": "衰仔面包工坊",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "@tabBarColor",
+    "selectedColor": "@tabBarSelectedColor",
+    "borderStyle": "@tabBarBorderStyle",
+    "backgroundColor": "@tabBarBackgroundColor",
+    "list": [
+      {
+        "pagePath": "pages/wxml/index",
+        "iconPath": "@iconPathHome",
+        "selectedIconPath": "@selectedIconPathHome",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/wxml/menu/menu",
+        "iconPath": "@iconPathMenu",
+        "selectedIconPath": "@selectedIconPathMenu",
+        "text": "点单"
+      },
+      {
+        "pagePath": "pages/wxml/order/order",
+        "iconPath": "@iconPathOrder",
+        "selectedIconPath": "@selectedIconPathOrder",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/wxml/self/self",
+        "iconPath": "@iconPathSelf",
+        "selectedIconPath": "@selectedIconPathSelf",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "themeLocation":"demo.theme.json",
+  "drakmode":true,
+  "resizeable":true
+  
+}
